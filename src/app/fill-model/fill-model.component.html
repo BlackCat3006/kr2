@@ -1,0 +1,11 @@
+
+    <div class="form-group">
+        <input type="number" required [(ngModel)]="ig" placeholder="id"/>
+        <br>
+        <input type="text" required [(ngModel)]="name" placeholder="Название">
+        <br>
+        <input type="datetime-local" required [(ngModel)]="date" placeholder="Дата выпуска"/>
+        <br>
+        <button (click)="goToItem(model)" class="btn">Перейти.</button>
+      </div>
+ 

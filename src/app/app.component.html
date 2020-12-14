@@ -1,0 +1,10 @@
+    <nav>
+      <ul class="menu touch">
+        <li><a routerLink="" routerLinkActive="active"[routerLinkActiveOptions]="{exact:true}">Home</a></li>
+        <li><a routerLink="/fill_model" routerLinkActive="active"> Fill model</a></li>
+        <li><a routerLink="/about" routerLinkActive="active">  About</a></li>
+        <li><a routerLink="/models/{{i}}" *ngFor="let i of list" routerLinkActive="active" > {{i}}</a></li>
+   </ul> 
+  </nav>
+
+<router-outlet></router-outlet>
